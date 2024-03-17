@@ -30,8 +30,15 @@ def create_user(connection, username):
 def run_quiz(connection, username):
     score = 0
     questions = [
-        {"question": "Jaka jest stolica Francji?", "options": {"a": "Paryż", "b": "Berlin", "c": "Londyn", "d": "Madryt"}, "correct_option": "a"},
-        {"question": "Kto napisał 'Romeo i Julia'?", "options": {"a": "William Szekspir", "b": "Charles Dickens", "c": "Jane Austen", "d": "Mark Twain"}, "correct_option": "a"},
+        {"question": "Jaki jest skrót od Structured Query Language?", "options": {"a": "SQR", "b": "SQL", "c": "SQRL", "d": "STQL"}, "correct_option": "b"},
+        {"question": "W jaki sposób wybieramy wszystkie kolumny z tabeli w zapytaniu SQL?", "options": {"a": "SELECT *", "b": "SELECT ALL", "c": "SELECT COLUMN", "d": "SELECT FIELDS"}, "correct_option": "a"},
+        {"question": "Który z poniższych operatorów jest używany do sprawdzania przynależności elementu do listy w Pythonie?", "options": {"a": "::", "b": "<>", "c": "in", "d": "><"}, "correct_option": "c"},
+        {"question": "Jakie są typowe rodzaje wyjątków w Pythonie?", "options": {"a": "Normal i Critical", "b": "Primary i Secondary", "c": "Syntax i Logic", "d": "Standard i Custom"}, "correct_option": "c"},
+        {"question": "Jaki operator jest używany do alokacji pamięci w C++?", "options": {"a": "alloc", "b": "allocate", "c": "malloc", "d": "new"}, "correct_option": "d"},
+        {"question": "Które z poniższych jest wierszem komentarza w języku C?", "options": {"a": "//", "b": "--", "c": "''", "d": "##"}, "correct_option": "a"},
+        {"question": "Które polecenie SQL służy do dodawania nowych rekordów do tabeli?", "options": {"a": " INSERT INTO", "b": "ADD RECORD", "c": "UPDATE", "d": "CREATE"}, "correct_option": "a"},
+        {"question": "Który operator logiczny w Pythonie zwraca True, jeśli przynajmniej jeden warunek jest spełniony?", "options": {"a": "||", "b": "&&", "c": "or", "d": "and"}, "correct_option": "c"},
+
         # Dodaj więcej pytań według potrzeb
     ]
 
